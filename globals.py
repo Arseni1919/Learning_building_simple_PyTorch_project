@@ -14,6 +14,8 @@ import sys
 from tqdm import tqdm
 
 
+DATA_DIR = '/kaggle/input/cards-image-datasetclassification/train'
+
 if __name__ == '__main__':
 
     print('System Version:', sys.version)
