@@ -21,8 +21,12 @@ class SimpleCardClassifier(nn.Module):
     def forward(self, x):
         x = self.features(x)
         output = self.classifier(x)
+        return output
 
 
 if __name__ == '__main__':
     model = SimpleCardClassifier(num_classes=53)
-    print(str(model)[:500])
+    print(str(model))
+
+
+

@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="uv (Learning_simple_PyTorch_projct_structure)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (Learning_building_simple_PyTorch_project)" project-jdk-type="Python SDK" />
 </project>

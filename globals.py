@@ -16,6 +16,9 @@ from tqdm import tqdm
 
 # DATA_DIR = '/kaggle/input/cards-image-datasetclassification/train'
 DATA_DIR = 'data/train'
+TRAIN_DATA_DIR = 'data/train'
+VAL_DATA_DIR = 'data/valid'
+TEST_DATA_DIR = 'data/test'
 
 if __name__ == '__main__':
 
