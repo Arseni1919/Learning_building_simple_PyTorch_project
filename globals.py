@@ -14,7 +14,8 @@ import sys
 from tqdm import tqdm
 
 
-DATA_DIR = '/kaggle/input/cards-image-datasetclassification/train'
+# DATA_DIR = '/kaggle/input/cards-image-datasetclassification/train'
+DATA_DIR = 'data/train'
 
 if __name__ == '__main__':
 
