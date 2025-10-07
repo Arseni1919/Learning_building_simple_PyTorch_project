@@ -47,6 +47,7 @@ def train():
 
     num_epochs = 5
     train_losses, val_losses = [], []
+    curr_loss = 1e10
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -80,6 +81,9 @@ def train():
         val_losses.append(val_loss)
         print(f"Epoch {epoch + 1}/{num_epochs} - Train loss: {train_loss}, Validation loss: {val_loss}")
 
+        if val_loss < curr_loss:
+            curr_loss = val_loss
+            torch.save(model.state_dict(), "model_weights.pth")
     # --- #
 
     plt.plot(train_losses, label='Training loss')
