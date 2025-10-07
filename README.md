@@ -622,3 +622,9 @@ By studying this project, you now understand:
 - ✅ Essential PyTorch functions and patterns
 
 Use this README and code as a template for your future PyTorch projects! 🚀
+
+
+## Credits
+
+- [yt | Build Your First Pytorch Model In Minutes! Tutorial + Code](https://www.youtube.com/watch?v=tHL5STNJKag)
+- [kaggle | Build Your First Pytorch Model In Minutes! Tutorial + Code](https://www.kaggle.com/code/robikscube/train-your-first-pytorch-model-card-classifier/notebook)
